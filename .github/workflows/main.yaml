@@ -20,5 +20,6 @@ jobs:
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
         run: |
-          surge ./ --domain primer-parcial.surge.sh --token $SURGE_TOKEN
+          surge ./ --domain primer-parcial-mariel141.surge.sh --token $SURGE_TOKEN
+
 
